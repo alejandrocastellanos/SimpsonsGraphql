@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "graphqlpokemon"
+version = "0.1.0"
+description = ""
+authors = ["Alejandro Castellanos <alejandro.castellanos@grupor5.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+graphene = "^3.3"
+starlette-graphene3 = "^0.6.0"
+uvicorn = "^0.24.0.post1"
+httpx = "^0.25.2"
+gunicorn = "^21.2.0"
+translate = "^3.6.1"
+pytest = "^7.4.3"
+uvloop = "^0.19.0"
+pytest-asyncio = "^0.21.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
